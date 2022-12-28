@@ -1,0 +1,17 @@
+p {
+    margin-top: 15px;
+    margin-left: 50px;
+    width: fit-content;
+    padding: 5px 10px;
+    font-family: 'Limelight', cursive;
+    font-size: 35px;
+    text-align: center;
+    border: 5px solid black;
+    box-shadow: 10px 10px black, -0.5em 0 .4em purple;
+    /* box shadow from: https://www.w3schools.com/css/css3_shadows_box.asp */
+}
+
+div {
+    display: flex;
+    justify-content: start;
+}
