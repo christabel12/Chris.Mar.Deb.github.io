@@ -8,38 +8,47 @@
   from: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
     margin-right: 1200px;
     margin-left: 35px;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     font-family: "Limelight", cursive;
     font-size: 33px;
     text-align: center;
+    text-transform: uppercase;
     background-color: white;
-    border: 5px solid black;
-    box-shadow: 10px 10px black, -0.5em 0 0.4em magenta;
+    border: 6px solid black;
+    box-shadow: 10px 10px black, -0.5em 0 0.4em #00FA9A;
     /* box shadow from: https://www.w3schools.com/css/css3_shadows_box.asp */
 }
 
 #navbar {
     position: fixed;
-    top: 60px;
+    top: 65px;
     z-index: 49;
+
     background-color: white;
+    border-bottom: 5px solid black;
+    border-top: 4px solid black;
 }
 
 a {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
+    text-transform: uppercase;
 }
 
 #navbar2 {
     position: fixed;
     z-index: 48;
+
+    height: 75px;
+    background-color: #7B68EE;
 }
 
-h1:nth-of-type(1) {
-    margin-top: 200px;
+#carousel {
+    position: fixed;
+    z-index: 47;
 }
 
-/*# sourceMappingURL=Homepage.css.map */
-/* compiled both my sass and css files in order to edit bootstrap code */
+#images {
+    width: 1600px;
+    height: 740px;
+}
