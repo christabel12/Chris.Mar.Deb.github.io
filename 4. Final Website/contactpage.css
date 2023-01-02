@@ -1,3 +1,5 @@
+*    {font-family: "Montserrat", sans-serif;}
+
 #logo {
     position: fixed;
     top: 35px;
@@ -29,6 +31,10 @@ a {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
+}
+
+.tagline{
+    margin-left: 50px;
 }
 
 .map{
@@ -73,6 +79,8 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    border: 6px solid black;
+    box-shadow: 10px 10px black, -0.5em 0 0.4em #7B68EE;
 }
 
 #navbar2 {
