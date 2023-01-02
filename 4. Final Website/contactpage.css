@@ -2,10 +2,7 @@
     position: fixed;
     top: 35px;
     left: 15px;
-    /* position from: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
     z-index: 50;
-    /* z-index (to place logo in front of navbar) (used the no. 50 so that if I wish to stack other components behind it, I could do it with ease) 
-  from: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
     margin-right: 1200px;
     margin-left: 35px;
     width: fit-content;
@@ -16,7 +13,6 @@
     background-color: white;
     border: 6px solid black;
     box-shadow: 10px 10px black, -0.5em 0 0.4em #00FA9A;
-    /* box shadow from: https://www.w3schools.com/css/css3_shadows_box.asp */
 }
 
 #navbar {
