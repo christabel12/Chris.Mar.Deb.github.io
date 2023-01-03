@@ -55,8 +55,14 @@ a {
     /*box-shadow: 10px 10px black, -0.5em;*/
 }
 
-#caption {
+h1 {
     font-family: "Limelight";
     font-size: 18px;
 
+}
+
+#card {
+    border-bottom: 20px solid black;
+    border-right: 20px solid black;
+    box-shadow: 10px 10px black, -0.5em
 }
