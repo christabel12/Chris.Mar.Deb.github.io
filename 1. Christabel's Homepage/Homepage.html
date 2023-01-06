@@ -33,27 +33,22 @@
         <p id="logo">Exhibition 2023</p>
         <nav class=" container-fluid navbar navbar-expand-lg navbar-light" id="navbar">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                            <!-- this page would contain all the students' portraits which after clicking on 
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-md d-flex justify-content-end" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Exhibition</a>
+                        <!-- this page would contain all the students' portraits which after clicking on 
                             one of them leads you to that student's personal exhibition -->
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Exhibition</a>
-                            <!-- this page would contain all the students' portraits which after clicking on 
-                            one of them leads you to that student's personal exhibition -->
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                            <!-- this page would contain all the contact information such as email address and 
+                        <a class="nav-link" href="#">Contact Us</a>
+                        <!-- this page would contain all the contact information such as email address and 
                             phone numbers along with all the sponsors underneath -->
-                        </li>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -63,64 +58,76 @@
     <div class="container-fluid d-flex justify-content-center">
         <nav class=" container-fluid navbar navbar-expand-lg fixed-bottom px-0" id="navbar2">
             <div class="container-fluid px-4">
-                <a class="navbar-brand d-flex justify-content-start" href="#">
-                    <img src="Images/Uni Logo.png" alt="University of Malta" width="200" height="98">
-                    <!-- this would then be ultimately linked to the University's MAKS webpage -->
-                </a>
-                <div class="container-fluid d-flex justify-content-end">
-                    <a class="navbar-brand" href="#">
-                        <span style="color: white;">
-                            <i class="fa-brands fa-facebook fa-light fa-xl"></i>
-                            <!-- this would then be ultimately linked to the exhibition's facebook webpage -->
-                        </span>
+                <div class="collaspe navbar-collapse d-flex justify-content start">
+                    <a class="navbar-brand d-flex justify-content-start" href="#">
+                        <img src="Images/Uni Logo.png" alt="University of Malta" width="200" height="98">
+                        <!-- this would then be ultimately linked to the University's MAKS webpage -->
                     </a>
-                    <a class="navbar-brand" href="#">
-                        <span style="color: white;">
-                            <i class="fa-brands fa-instagram fa-light fa-xl"></i>
-                            <!-- this would then be ultimately linked to the exhibition's instagram webpage -->
-                        </span>
-                    </a>
+                    <div class="container-fluid d-flex justify-content-end">
+                        <a class="navbar-brand" href="#">
+                            <span style="color: white;">
+                                <i class="fa-brands fa-facebook fa-light fa-xl"></i>
+                                <!-- this would then be ultimately linked to the exhibition's facebook webpage -->
+                            </span>
+                        </a>
+                        <a class="navbar-brand" href="#">
+                            <span style="color: white;">
+                                <i class="fa-brands fa-instagram fa-light fa-xl"></i>
+                                <!-- this would then be ultimately linked to the exhibition's instagram webpage -->
+                            </span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
     </div>
 
     <!-- Carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <!-- Got some help from: https://www.youtube.com/watch?v=zVjAA6UxvtU -->
+    <div>
+        <div id="exhibitionCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="8000">
+            <!-- data-interval from: https://stackoverflow.com/questions/25147394/how-to-change-the-interval-time-on-bootstrap-carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#exhibitionCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#exhibitionCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#exhibitionCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div id="carousel-images" class="carousel-item active">
+                    <div class="container d-flex justify-content-center">
+                        <p id="welcome">Welcome to the BFA 2023 Exhibtion!</p>
+                    </div>
+                    <img src="Images/Welcome Slide.jpg" class="d-block w-100 carousel-image" alt="Image cannot load.">
+                </div>
+                <div id="carousel-images" class="carousel-item">
+                    <div class="container d-flex justify-content-center">
+                        <a id="buttons" class="btn" href="Exhibtion" role="button">Check out the Exhibition!</a>
+                        <!-- links to the exhibition section in the navbar -->
+                    </div>
+                    <img src="Images/Exhibtion Slide.jpg" class="d-block w-100 carousel-image" alt="Image cannot load.">
+                </div>
+                <div id="carousel-images" class="carousel-item">
+                    <div class="container d-flex justify-content-center">
+                        <a id="buttons" class="btn" href="Contact Us" role="button">Contact</a>
+                        <!-- links to the contact us section in the navbar -->
+                    </div>
+                    <img src="Images/Contact Us Slide.jpg" class="d-block w-100 carousel-image"
+                        alt="Image cannot load.">
+                </div>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img id="images" src="Images/Welcome Slide.jpg" class="image-fluid" alt="...">
-                <!-- Image from prexels.com -->
-
-            </div>
-            <div class="carousel-item">
-                <img id="images" src="Images/Exhibtion Slide.jpg" class="image-fluid" alt="...">
-                <!-- Image from prexels.com -->
-
-            </div>
-            <div class="carousel-item">
-                <img id="images" src="Images/Contact Us Slide.jpg" class="image-fluid" alt="...">
-                <!-- Image from prexels.com -->
-
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button id="controls" class="carousel-control-prev" type="button" data-bs-target="#exhibitionCarousel"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <i class="fa-solid fa-circle-arrow-left fa-2xl"></i></button>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        <button id="controls" class="carousel-control-next" type="button" data-bs-target="#exhibitionCarousel"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <i class="fa-solid fa-circle-arrow-right fa-2xl"></i></button>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
     </div>
 

@@ -122,13 +122,17 @@ hr {
     line-height: 35px;
 }
 
-hr {
+#hr {
+    margin-top: 80px;
+
     border: none;
-    border-top: 3px double #333;
-    color: #333;
+    /* hr styling from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr */
+    border-top: 3px double black;
+    color: black;
     overflow: visible;
     text-align: center;
     height: 5px;
+    opacity: 1.0;
 }
 
 #section2 {

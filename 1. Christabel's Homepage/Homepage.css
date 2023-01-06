@@ -43,12 +43,50 @@ a {
     background-color: #7B68EE;
 }
 
-#carousel {
-    position: fixed;
+#welcome {
+    position: absolute;
     z-index: 47;
+
+    margin-top: 460px;
+
+    padding: 8px;
+    width: fit-content;
+    font-family: "Limelight", cursive;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    border: 6px solid black;
+    box-shadow: 10px 10px black, -0.5em 0 0.4em #00FA9A;
 }
 
-#images {
-    width: 1600px;
-    height: 1000px;
+#buttons {
+    position: absolute;
+    z-index: 46;
+
+    margin-top: 460px;
+
+    padding: 8px;
+    width: fit-content;
+    font-family: "Limelight", cursive;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    border: 6px solid black;
+    box-shadow: 10px 10px black, -0.5em 0 0.4em #7B68EE;
+}
+
+#carousel-images {
+    height: 685px;
+}
+
+.carousel-image {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+#controls {
+    color: white;
 }

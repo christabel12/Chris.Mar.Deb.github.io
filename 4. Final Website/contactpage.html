@@ -18,12 +18,12 @@
     <!-- Montserrat Font from: https://fonts.google.com/specimen/Montserrat?query=Mont -->
 
     <!-- Icons -->
-    <script src="https://kit.fontawesome.com/8fe4a290b0.js" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/8fe4a290b0.js" crossorigin="anonymous"></script>
 
     <!--Homepage CSS file-->
-    <link rel="stylesheet" type="text/css" href="Homepage.css"> 
+    <link rel="stylesheet" type="text/css" href="Home.css">
 
-    <link rel="stylesheet" type="text/css" href="exhibition.css"> 
+    <link rel="stylesheet" type="text/css" href="exhibition.css">
 
     <!--Contact page CSS file-->
     <link rel="stylesheet" type="text/css" href="contactpage.css">
@@ -45,7 +45,7 @@
                             <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="exhibition.html">Exhibition</a>
+                            <a class="nav-link" href="exhibition.html">Exhibits</a>
                             <!-- this page would contain all the students' portraits which after clicking on 
                             one of them leads you to that student's personal exhibition -->
                         </li>
@@ -60,43 +60,46 @@
         </nav>
     </div>
 
-<!--map html taken from google maps as an embeded map-->
-<div>
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.824244487932!2d14.482554515723418!3d35.90231998014354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e454d8aa48a1b%3A0x4398993f6cadcf81!2sL-Universit%C3%A0%20ta&#39;%20Malta!5e0!3m2!1sen!2smt!4v1672686906276!5m2!1sen!2smt" width="410" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-</div>
+    <!--map html taken from google maps as an embeded map-->
+    <div>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.824244487932!2d14.482554515723418!3d35.90231998014354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e454d8aa48a1b%3A0x4398993f6cadcf81!2sL-Universit%C3%A0%20ta&#39;%20Malta!5e0!3m2!1sen!2smt!4v1672686906276!5m2!1sen!2smt"
+            width="410" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>"
+    </div>
 
-<!--contact page text-->
-<div class="tagline">
-    <h3>Thank You for Visiting!</h3><br>
-    <h3>Have any queries? Ask away!</h3><br>
-</div>
+    <!--contact page text-->
+    <div class="tagline">
+        <h3>Thank You for Visiting!</h3><br>
+        <h3>Have any queries? Ask away!</h3><br>
+    </div>
 
-<div>
-    <i class="fa fa-phone fa-2x" aria-hidden="true"></i>23402340
-</div>
+    <div>
+        <i class="fa fa-phone fa-2x" aria-hidden="true"></i>23402340
+    </div>
 
-<div>
-    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>info@um.edu.mt
-</div>
+    <div>
+        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>info@um.edu.mt
+    </div>
 
-<!--contact form-->
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" class="fname" name="firstname" placeholder="Your name..">
+    <!--contact form-->
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" class="fname" name="firstname" placeholder="Your name...">
 
-    <label for="lname">Last Name</label>
-    <input type="text" class="lname" name="lastname" placeholder="Your last name..">
+            <label for="lname">Last Name</label>
+            <input type="text" class="lname" name="lastname" placeholder="Your last name...">
 
-    <label for="mnumber">Mobile Number</label>
-    <input type="text" class="mnumber" name="mobilenumber" placeholder="Your mobile number..">
+            <label for="mnumber">Mobile Number</label>
+            <input type="text" class="mnumber" name="mobilenumber" placeholder="Your mobile number...">
 
-    <label for="subject">Subject</label>
-    <textarea class="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+            <label for="subject">Subject</label>
+            <textarea class="subject" name="subject" placeholder="Write something..." style="height:100px"></textarea>
 
-    <input type="submit" value="Submit">
-  </form>
-</div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
     <!-- Bottom Navbar + Social Media Icons -->
     <div class="container-fluid d-flex justify-content-center">
@@ -126,5 +129,10 @@
         </nav>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
