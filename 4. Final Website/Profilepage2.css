@@ -30,10 +30,50 @@
 }
 
 a {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
 }
+
+.student-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 5vmin;
+  }
+  
+  .project-name {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 3vmin;
+    text-align: justify;
+    color: black;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+
+.body-text-student {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9vmax;
+    line-height: 190%;
+    text-align: justify;
+    margin-bottom: 0px;
+  }
+
+.student-image-1 {
+    width: 38vmin;
+    height: 53vmin;
+    box-shadow: -1vw 1vw 0vw 0vw #00FA9A;
+    margin: auto;
+  }
+
+  .student-image-2 {
+    width: 38vmin;
+    height: 53vmin;
+    box-shadow: -1vw 1vw 0vw 0vw #7B68EE;
+    margin: auto;
+  }  
 
 #navbar2 {
     position: fixed;
@@ -41,22 +81,4 @@ a {
 
     height: 75px;
     background-color: #7B68EE;
-}
-
-/*#images {
-    /*border-bottom: 20px solid black;
-    border-right: 20px solid black;*/
-
-
-#images1 {
-    border-bottom: 20px solid black;
-    /*height: min-content;*/
-    border-right: 20px solid black;
-    /*box-shadow: 10px 10px black, -0.5em;*/
-}
-
-#caption {
-    font-family: "Limelight";
-    font-size: 18px;
-
 }
