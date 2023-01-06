@@ -47,7 +47,9 @@ a {
 }
 
 #tagline {
-    position: relative;
+    margin-top: 210px;
+    margin-bottom: 50px;
+
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
@@ -55,7 +57,7 @@ a {
 .map {
     position: relative;
     width: 100%;
-    margin-bottom: 30px
+    margin-bottom: 100px;
 }
 
 * {
@@ -89,6 +91,8 @@ input[type=submit]:hover {
 }
 
 .container {
+    margin-bottom: 90px;
+
     width: 150px;
     height: fit-content;
     background-color: #f2f2f2;
