@@ -62,7 +62,7 @@ h1 {
 #imagesection {
     margin-left: 140px;
     margin-top: 210px;
-    margin-bottom: 150px;
+    margin-bottom: 130px;
 }
 
 #navbar2 {
@@ -71,4 +71,16 @@ h1 {
 
     height: 75px;
     background-color: #7B68EE;
+}
+
+#copyright {
+    margin-top: 17px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#icons {
+    margin: 20px;
 }

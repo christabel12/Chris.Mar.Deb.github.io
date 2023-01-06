@@ -5,7 +5,7 @@
     /* position from: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
     z-index: 50;
     /* z-index (to place logo in front of navbar) (used the no. 50 so that if I wish to stack other components behind it, I could do it with ease) 
-  from: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
+    from: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
     margin-right: 1200px;
     margin-left: 35px;
     width: fit-content;
@@ -35,45 +35,56 @@ a {
     text-transform: uppercase;
 }
 
-.student-name {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 5vmin;
-  }
-  
-  .project-name {
-    font-family: "Montserrat", sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 3vmin;
-    text-align: justify;
-    color: black;
-    padding-left: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-  }
+#student-info {
+    align-items: center;
+    margin-top: 210px;
+    margin-bottom: 70px;
+}
 
-.body-text-student {
+#student-image {
+    margin-right: 30px;
+    width: 310px;
+    height: 400px;
+}
+
+.studentimg {
+    border: 6px solid black;
+    box-shadow: 10px 10px black, -0.5em 0 0.4em #00FA9A;
+
+    height: 100%;
+    object-fit: contain;
+}
+
+#student-description {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#student-name {
+    font-family: "Limelight", cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#project-name {
     font-family: "Montserrat", sans-serif;
-    font-size: 0.9vmax;
-    line-height: 190%;
-    text-align: justify;
-    margin-bottom: 0px;
-  }
+    font-size: 20px;
+}
 
-.student-image-1 {
-    width: 38vmin;
-    height: 53vmin;
-    box-shadow: -1vw 1vw 0vw 0vw #00FA9A;
-    margin: auto;
-  }
+#text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 50px;
+    line-height: 35px;
+}
 
-  .student-image-2 {
-    width: 38vmin;
-    height: 53vmin;
-    box-shadow: -1vw 1vw 0vw 0vw #7B68EE;
-    margin: auto;
-  }  
+#gallery {
+    border: 6px solid black;
+}
+
+#images {
+    margin-bottom: 130px;
+}
 
 #navbar2 {
     position: fixed;
@@ -81,4 +92,16 @@ a {
 
     height: 75px;
     background-color: #7B68EE;
+}
+
+#copyright {
+    margin-top: 17px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#icons {
+    margin: 20px;
 }

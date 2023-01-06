@@ -47,7 +47,7 @@ from: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
 
 a {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -56,8 +56,12 @@ a {
   position: fixed;
   z-index: 48;
 
-  height: 65px;
+  height: 75px;
   background-color: #7B68EE;
+}
+
+#icons {
+  margin: 20px;
 }
 
 hr {
@@ -69,7 +73,7 @@ hr {
   margin-top: 17px;
 
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
 }
 
@@ -148,7 +152,7 @@ hr {
 
 #section2 {
   margin-top: 90px;
-  margin-bottom: 100px
+  margin-bottom: 130px
 }
 
 #rows {
@@ -161,4 +165,3 @@ hr {
   background-color: #00FA9A;
   opacity: 0.9;
 }
-
